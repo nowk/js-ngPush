@@ -1,5 +1,3 @@
-
-
 angular.module("ngPush", []).directive("ngPush", function() {
   return {
     restrict: "EA",
