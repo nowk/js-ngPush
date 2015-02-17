@@ -1,5 +1,5 @@
 {
-  "name": "js-ngPush",
+  "name": "js-ngpush",
   "version": "0.0.0",
   "description": "Push to ngModel bootstrapper",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:nowk/js-ngPush.git"
+    "url": "git@github.com:nowk/js-ngpush.git"
   },
   "keywords": [
     "angular",
@@ -19,9 +19,9 @@
   "author": "Yung Hwa Kwon <yung.kwon@damncarousel.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nowk/js-ngPush/issues"
+    "url": "https://github.com/nowk/js-ngpush/issues"
   },
-  "homepage": "https://github.com/nowk/js-ngPush",
+  "homepage": "https://github.com/nowk/js-ngpush",
   "devDependencies": {
     "angular": "^1.3.13",
     "angular-mocks": "^1.3.13",

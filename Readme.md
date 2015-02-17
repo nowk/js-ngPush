@@ -1,8 +1,8 @@
 # ngPush
 
 [![Browserify](https://img.shields.io/badge/browserify-only-ff69b4.svg)](https://img.shields.io/badge/browserify-only-ff69b4.svg)
-[![Build Status](https://travis-ci.org/nowk/js-ngPush.svg?branch=master)](https://travis-ci.org/nowk/js-ngPush)
-[![David DM](https://david-dm.org/nowk/js-ngPush.png)](https://david-dm.org/nowk/js-ngPush)
+[![Build Status](https://travis-ci.org/nowk/js-ngpush.svg?branch=master)](https://travis-ci.org/nowk/js-ngpush)
+[![David DM](https://david-dm.org/nowk/js-ngpush.png)](https://david-dm.org/nowk/js-ngpush)
 
 > Push to ngModel bootstrapper
 
@@ -11,12 +11,12 @@ A simple way to bootstrap collections without making extra XHR calls or embeddin
 
 ## Install
 
-    npm install js-ngPush
+    npm install js-ngpush
 
 ## Usage
 
     require("angular");
-    require("js-ngPush");
+    require("js-ngpush");
 
     var m = angular.module("App", [
       "ngPush"
