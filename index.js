@@ -1,3 +1,11 @@
+// ignore angular based attributes
+var ignore = [
+  "$attr",
+  "$$element",
+  "ngModel",
+  "$$observers"
+];
+
 angular.module("ngPush", []).directive("ngPush", function() {
   return {
     restrict: "EA",
@@ -5,16 +13,8 @@ angular.module("ngPush", []).directive("ngPush", function() {
       collection: "=ngModel"
     },
     link: function(scope, element, attrs) {
-      // ignore angular based attributes
-      var ignore = [
-        "$attr",
-        "$$element",
-        "ngModel",
-        "$$observers"
-      ];
-
       var obj = {};
-      var keys = Object.keys(attrs);
+      var keys  = Object.keys(attrs);
       angular.forEach(keys, function(k) {
         if (!~ignore.indexOf(k)) {
           obj[k] = attrs[k];
