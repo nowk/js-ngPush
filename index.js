@@ -14,7 +14,7 @@ angular.module("ngPush", []).directive("ngPush", function() {
     },
     link: function(scope, element, attrs) {
       var obj = {};
-      var keys  = Object.keys(attrs);
+      var keys = Object.keys(attrs);
       angular.forEach(keys, function(k) {
         if (!~ignore.indexOf(k)) {
           obj[k] = attrs[k];
