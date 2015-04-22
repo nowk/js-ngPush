@@ -1,6 +1,6 @@
 {
   "name": "js-ngpush",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Push to ngModel bootstrapper",
   "main": "index.js",
   "scripts": {
